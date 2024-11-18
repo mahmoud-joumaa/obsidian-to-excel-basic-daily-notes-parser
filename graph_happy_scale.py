@@ -5,7 +5,7 @@ import xlsxwriter
 # Change this to name the generated excel file
 excel_workbook_name = "happy_scale.xlsx"
 # Change this to the absolute or relative path of the folder that contains all your daily notes
-DAILY_NOTES_DIR = ".\\DailyNotes_Samples\\Daily Notes"
+DAILY_NOTES_DIR = ".\\"
 # Change this list to include the names of files you DON'T want the script to parse
 files_to_exclude = []
 
