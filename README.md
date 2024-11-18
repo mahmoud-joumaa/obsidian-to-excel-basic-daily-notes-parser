@@ -10,7 +10,7 @@ My cousin tracks his happiness inside [Obsidian](https://obsidian.md/) and he th
 
 1. The script parses the folder where your daily notes are stored (_the folder's location is hard-coded by the user_) and lists every file name in his directory (_excluding certain files that the user defines_).
 
-2. The script then organizes the listed files by their names (_assumed to be in the format of 'DD-MM-YYYY.md'_).
+2. The script then organizes the listed files by their names (_assumed to be in the format of 'dd-mm-YYYY.md'_).
 
 	a. As the file names are being organized, the script parses each file and extracts the happy score from each file by searching for the line that comes directly after `#Happy-scale` so the file is very flexible in terms of format.
 
@@ -21,6 +21,8 @@ My cousin tracks his happiness inside [Obsidian](https://obsidian.md/) and he th
 	a. Each year has a separate spreadsheet in the excel workbook.
 
 	b. Each spreadsheet has all the dates writter in the `A` column and all the scores written in the `B` column.
+
+	c. If the script does not detect a happy score for a certain date, the score will default to `-1`.
 
 4. Once the data is written into the corresponding columns, a line chart is drawn based on this data.
 
@@ -37,6 +39,8 @@ To run the Python script, the following **must** be configured correctly:
 
 To run the Python script, the following **may** be configured based on the user (_a.k.a. you_):
 - `excel_workbook_name` at **line 6**: Set this variable to whatever the `.xlsx` file should be named (_e.g. `"happy.xlsx"`_).
+	> [!Note]
+	> The scirpt does some basic checking while parsing the file names to make sure of the format. However, this check is not fool-proof. It is up to the user to make sure the file names follow the format "dd-mm-YYYY" and exclude any files with names that do not follow this format.
 - `files_to_exclude` at **line 10**: Set this variable to a list of file names to be ignored while parsing (_e.g. `["Daily Notes.md", "Daily Note Template.md"]`_)
 
 Once the configured variables are set, the script can be started by running `python graph_happy_scale.py` in the terminal.
