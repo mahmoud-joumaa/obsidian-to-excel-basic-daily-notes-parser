@@ -56,7 +56,7 @@ Once the configured variables are set, the script can be started by running `pyt
 > Ensure Python is added to the Path while downloading
 - To install [XlsWriter](https://pypi.org/project/XlsxWriter/), run `python -m pip install xlswriter` in the terminal.
 > [!Tip]
-> It may be worth looking into Python virtual environments (venv) it you're starting to have a lot of dependencies downloaded globally.
+> It may be worth looking into Python virtual environments (venv) if you're starting to have a lot of dependencies downloaded globally.
 
 ## Known Issues
 
@@ -73,4 +73,4 @@ Although an optimization probably exists, given that there are around 365 days a
 
 I'm not affiliated with any of the involved applications or technologies. At the time of working on this project, I'm simply a Computer Science graduate who enjoys working on custom solutions that help my friends have more fun when they use certain technologies. If you would like to reach out, feel free to send an email titled "Force Open Google Drive Files with Google Chrome Instead of the Default Browser" to mahmoud.j.eschool@gmail.com.
 
-The source code for this project can be found at [https://github.com/mahmoud-joumaa/obsidian-to-excel-basic-daily-notes-parser](https://github.com/mahmoud-joumaa/obsidian-to-excel-basic-daily-notes-parser)
+The source code for this project can be found at [https://github.com/mahmoud-joumaa/obsidian-to-excel-basic-daily-notes-parser](https://github.com/mahmoud-joumaa/obsidian-to-excel-basic-daily-notes-parser).
