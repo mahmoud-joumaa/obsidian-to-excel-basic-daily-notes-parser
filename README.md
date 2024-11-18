@@ -1,4 +1,4 @@
-# Obsidian To Excel Basic Daily Notes Parser
+# Obsidian To Excel (Basic) Daily Notes Parser
 
 A, rather basic, [Python](https://www.python.org/) program to graph (my cousin's) [Obsidian](https://obsidian.md/) daily notes into an excel workbook to track his "happy scores".
 
