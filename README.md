@@ -49,12 +49,12 @@ Once the configured variables are set, the script can be started by running `pyt
 
 - [Obsidian](https://obsidian.md/)
 - [Python](https://www.python.org/)
-	- The [XlsWriter](https://pypi.org/project/XlsxWriter/) package stated in the `requirements.txt` file.
+	- The [XlsxWriter](https://pypi.org/project/XlsxWriter/) package stated in the `requirements.txt` file.
 
 - To install Python, head over to [https://www.python.org/](https://www.python.org/) and follow the instructions on the website.
 > [!Important]
 > Ensure Python is added to the Path while downloading
-- To install [XlsWriter](https://pypi.org/project/XlsxWriter/), run `python -m pip install xlswriter` in the terminal.
+- To install [XlsxWriter](https://pypi.org/project/XlsxWriter/), run `python -m pip install xlsxwriter` in the terminal.
 > [!Tip]
 > It may be worth looking into Python virtual environments (venv) if you're starting to have a lot of dependencies downloaded globally.
 
@@ -67,7 +67,7 @@ Although an optimization probably exists, given that there are around 365 days a
 # Useful Resources
 
 - [The official Python website](https://www.python.org/)
-- [The full XlsWriter documentation](https://xlsxwriter.readthedocs.io/)
+- [The full XlsxWriter documentation](https://xlsxwriter.readthedocs.io/)
 
 # Contact & FAQs
 
